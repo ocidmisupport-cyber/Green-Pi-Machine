@@ -310,7 +310,7 @@ body {
   overflow: hidden;
   border: 0;
   background: #1f1f1f;
-  color: #fff;
+  color: var(--ink);
   cursor: pointer;
   text-align: left;
 }
@@ -344,7 +344,7 @@ body {
   font-size: clamp(15px, 2vw, 19px);
   font-weight: 700;
   line-height: 1.25;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.48);
+  text-shadow: 0 1px 4px rgba(255, 255, 255, 0.34);
 }
 
 .landing-copy strong {
